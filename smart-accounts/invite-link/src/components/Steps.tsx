@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import ConnectButton from "@/components/ConnectButton";
 import CreateLinkButton from "@/components/CreateLinkButton";
-import DeployDelegatorButton from "@/components/DeployDelegatorButton";
+import DeploySmartAccountButton from "@/components/DeploySmartAccountButton";
 import ClaimRewardButton from "@/components/ClaimRewardButton";
 import { useAccount } from "wagmi";
 import useDelegatorSmartAccount from "@/hooks/useDelegatorSmartAccount";
@@ -88,7 +88,7 @@ export default function Steps() {
             This transaction will be sponsored, so you don&apos;t have to pay for
             gas.
           </p>
-          <DeployDelegatorButton />
+          <DeploySmartAccountButton />
         </>
       )}
 

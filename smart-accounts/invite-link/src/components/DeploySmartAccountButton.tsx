@@ -7,7 +7,7 @@ import { useState } from "react";
 import { zeroAddress } from "viem";
 import Button from "@/components/Button";
 
-export default function DeployDelegatorButton() {
+export default function DeploySmartAccountButton() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const { smartAccount } = useDelegatorSmartAccount();
@@ -42,8 +42,8 @@ export default function DeployDelegatorButton() {
       console.log(receipt);
       changeStep(3);
     } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : "Failed to deploy account";
-      console.error("Failed to deploy account:", error);
+      const errorMessage = error instanceof Error ? error.message : "Failed to deploy smart account";
+      console.error("Failed to deploy smart account:", error);
       setError(errorMessage);
     } finally {
       setLoading(false);
@@ -66,7 +66,7 @@ export default function DeployDelegatorButton() {
         </div>
       )}
       <Button onClick={handleDeployDelegator} disabled={loading}>
-        {loading ? "Deploying Account..." : "Deploy Account"}
+        {loading ? "Deploying Smart Account..." : "Deploy Smart Account"}
       </Button>
     </>
   );
