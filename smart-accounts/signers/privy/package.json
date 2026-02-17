@@ -11,15 +11,15 @@
   },
   "dependencies": {
     "@metamask/smart-accounts-kit": "^0.3.0",
-    "@privy-io/react-auth": "3.7.0",
-    "@privy-io/wagmi": "^2.1.0",
-    "@tanstack/react-query": "^5.90.12",
+    "@privy-io/react-auth": "3.13.1",
+    "@privy-io/wagmi": "^4.0.1",
+    "@tanstack/react-query": "^5.90.21",
     "next": "15.4.10",
-    "permissionless": "^0.3.2",
+    "permissionless": "^0.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "viem": "^2.41.2",
-    "wagmi": "^3.1.0"
+    "viem": "^2.46.1",
+    "wagmi": "^3.4.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

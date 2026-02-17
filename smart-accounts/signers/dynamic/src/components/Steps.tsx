@@ -2,10 +2,10 @@
 
 import TransactionForm from "@/components/TransactionForm";
 import SmartAccountInfo from "@/components/SmartAccountInfo";
-import { useAccount } from "wagmi";
+import { useConnection } from "wagmi";
 
 export default function Steps() {
-  const { isConnected } = useAccount();
+  const { isConnected } = useConnection();
 
   if (!isConnected) {
     return (

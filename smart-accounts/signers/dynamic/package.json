@@ -10,17 +10,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@dynamic-labs/ethereum": "^4.50.4",
-    "@dynamic-labs/sdk-react-core": "^4.50.4",
-    "@dynamic-labs/wagmi-connector": "^4.50.4",
+    "@dynamic-labs/ethereum": "^4.61.4",
+    "@dynamic-labs/sdk-react-core": "^4.61.4",
+    "@dynamic-labs/wagmi-connector": "^4.61.4",
     "@metamask/smart-accounts-kit": "^0.3.0",
-    "@tanstack/react-query": "^5.90.12",
+    "@tanstack/react-query": "^5.90.21",
     "next": "15.4.10",
-    "permissionless": "^0.3.2",
+    "permissionless": "^0.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "viem": "^2.42.1",
-    "wagmi": "^2.19.5"
+    "viem": "^2.46.1",
+    "wagmi": "^3.4.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

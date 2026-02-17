@@ -5,7 +5,7 @@ import ConnectButton from "@/components/ConnectButton";
 import CreateLinkButton from "@/components/CreateLinkButton";
 import DeploySmartAccountButton from "@/components/DeploySmartAccountButton";
 import ClaimRewardButton from "@/components/ClaimRewardButton";
-import { useAccount } from "wagmi";
+import { useConnection } from "wagmi";
 import useDelegatorSmartAccount from "@/hooks/useDelegatorSmartAccount";
 import { useStepContext } from "@/hooks/useStepContext";
 import AccountCard from "@/components/AccountCard";
@@ -15,7 +15,7 @@ import { Delegation } from "@metamask/smart-accounts-kit";
 
 export default function Steps() {
   const { step, changeStep } = useStepContext();
-  const { isConnected } = useAccount();
+  const { isConnected } = useConnection();
   const [urlDelegation, setUrlDelegation] = useState<Delegation | null>(null);
   const { smartAccount } = useDelegatorSmartAccount();
 
