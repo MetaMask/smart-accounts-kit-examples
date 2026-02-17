@@ -21,8 +21,6 @@ export default function useDelegatorSmartAccount(): {
   useEffect(() => {
     if (!address || !walletClient || !publicClient) return;
 
-    console.log("Creating smart account");
-
     toMetaMaskSmartAccount({
       client: publicClient,
       implementation: Implementation.Hybrid,
