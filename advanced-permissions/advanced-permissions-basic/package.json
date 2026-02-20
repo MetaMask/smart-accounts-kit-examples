@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@metamask/sdk": "~0.33.1",
+    "@metamask/sdk": "~0.34.0",
     "@metamask/smart-accounts-kit": "^0.3.0",
     "@tailwindcss/postcss": "^4.1.1",
     "@tanstack/react-query": "^5.90.16",
     "lucide-react": "^0.562.0",
-    "next": "15.4.10",
+    "next": "15.5.10",
     "permissionless": "^0.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
