@@ -12,7 +12,7 @@
     "@metamask/smart-accounts-kit": "^0.3.0",
     "@tanstack/react-query": "^5.76.1",
     "@web3auth/modal": "^10.11.0",
-    "next": "15.2.8",
+    "next": "15.5.10",
     "permissionless": "^0.2.46",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
