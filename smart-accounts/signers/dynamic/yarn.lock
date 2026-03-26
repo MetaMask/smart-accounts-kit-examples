@@ -1117,10 +1117,10 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.4.0"
 
-"@metamask/7715-permission-types@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@metamask/7715-permission-types/-/7715-permission-types-0.4.0.tgz#25234aa15ecf0a8517a89a1ecd423a0bef1a1ceb"
-  integrity sha512-zRGASXeJ1LEbThi7fMXcP1xsoq/iXg/h9NL+lg1IhJUxOgO7An8TQs+Qvg8f+nGaYZnGlcWmhyEi8+razmRTgA==
+"@metamask/7715-permission-types@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@metamask/7715-permission-types/-/7715-permission-types-0.5.0.tgz#4eac0b65cdd96707c8e9f594fcda2d7bbccf596d"
+  integrity sha512-UTlAXhfVM83/dCtghIqZiPqJmeGa4KI2HhkKYjmeP0oFtwzsgDwFfNakdICC4VX82338AiyVVtbEFyx6t7SE1w==
 
 "@metamask/abi-utils@^3.0.0":
   version "3.0.0"
@@ -1130,24 +1130,24 @@
     "@metamask/superstruct" "^3.1.0"
     "@metamask/utils" "^11.0.1"
 
-"@metamask/delegation-abis@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-abis/-/delegation-abis-0.11.0.tgz#a87741512f954aad0aa134a3c7a52f093014687b"
-  integrity sha512-tnNGFDLQ5jfgPhHJaT5JwvF759nja1iGAG00REbk1Ufir+TxjxTmF8L9MbJifZmUh4fnyqV4Ik6NAOYVNBPVBg==
+"@metamask/delegation-abis@^0.12.0-beta.0":
+  version "0.12.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-abis/-/delegation-abis-0.12.0-beta.0.tgz#0a242b8ae36647ad2d40258f7fd9b4f23e87e1d4"
+  integrity sha512-2I+nk15BSCWy2YTNE3bxMxqTDUqUJBque5A91wXqn0e3NYLzSg3DEdtc8VebUVbgP9IoFhRhHioPwzd/z+xPoQ==
 
-"@metamask/delegation-core@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-core/-/delegation-core-0.3.0.tgz#0c46676b5e7450685cdb386e490220c35a4e8c92"
-  integrity sha512-a0vMu0pIOKD8AydSdSI991SY6BN0XzGhyXoaKbNg55NchyTyNMBuoAXZ92GS8+/jGtyIouQBglh6CUxhZZHmVw==
+"@metamask/delegation-core@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-core/-/delegation-core-0.4.0.tgz#9f181b5e31c58d50c3d4bb25fc9b26891e2cd484"
+  integrity sha512-A8OPxwSiWhAWeiQOmn/hCVSu3wYouLKIfcSKqpW2TF/W4lkGlcr3bc0kgVRs9J6Aie1zhxvJ81fxV7E9SaVfIA==
   dependencies:
     "@metamask/abi-utils" "^3.0.0"
     "@metamask/utils" "^11.4.0"
     "@noble/hashes" "^1.8.0"
 
-"@metamask/delegation-deployments@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-deployments/-/delegation-deployments-0.15.0.tgz#c6b3c82ff6ab1c60a924adc157e49dbb8ed81b88"
-  integrity sha512-5nlEPy7OGfNTcwSQ2kP7S2IOg2kFj9B8zcEOP3UeJxsFGX4U4IjNKxGVLtNTFHEa8RWmiFkl0Ifz9kDq/63fRw==
+"@metamask/delegation-deployments@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-deployments/-/delegation-deployments-0.17.0.tgz#2c5157962d6b1ca7cf5b27467d2ee830154c3e72"
+  integrity sha512-74H+zkLcnJHzF1GUrWJ2AkjVhXqPA2hKgDGolbqIV1x8ZFZyAYZdQ+QeQD03lV0XizSj5QxS/sWiUTGlyd5MtA==
 
 "@metamask/json-rpc-engine@^8.0.1", "@metamask/json-rpc-engine@^8.0.2":
   version "8.0.2"
@@ -1266,15 +1266,15 @@
     util "^0.12.4"
     uuid "^8.3.2"
 
-"@metamask/smart-accounts-kit@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@metamask/smart-accounts-kit/-/smart-accounts-kit-0.3.0.tgz#9cab9917b6a5af7331ae254764330e45ca62b5c8"
-  integrity sha512-WwaLwSB3WO5p0WpuxVEvTJbOZ1dr2wCBeq1IoEpv9EjFwiPNXlorji77PRskjQjFgFAc9XrERt4jWX7oua6N+Q==
+"@metamask/smart-accounts-kit@^0.4.0-beta.2":
+  version "0.4.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@metamask/smart-accounts-kit/-/smart-accounts-kit-0.4.0-beta.2.tgz#9eed1857075007b76a41ebf74a86ed421345cdbc"
+  integrity sha512-zts9fjBftMw7yq9ze4NVMM8j3dDDvApmzOQ2OOG2HzR8UkeA1l5ByP/ouz0ubbf00FYDpTcIauE1GJ+HnLcnAQ==
   dependencies:
-    "@metamask/7715-permission-types" "^0.4.0"
-    "@metamask/delegation-abis" "^0.11.0"
-    "@metamask/delegation-core" "^0.3.0"
-    "@metamask/delegation-deployments" "^0.15.0"
+    "@metamask/7715-permission-types" "^0.5.0"
+    "@metamask/delegation-abis" "^0.12.0-beta.0"
+    "@metamask/delegation-core" "^0.4.0"
+    "@metamask/delegation-deployments" "^0.17.0"
     buffer "^6.0.3"
     webauthn-p256 "^0.0.10"
 
