@@ -1,12 +1,12 @@
 # Delegation Basic
 
-This is a MetaMask Smart Accounts delegation basic example created with [@metamask/create-gator-app](https://www.npmjs.com/package/@metamask/create-gator-app).
+This is a MetaMask Smart Accounts delegation basic example created with [`@metamask/create-gator-app`](https://www.npmjs.com/package/@metamask/create-gator-app).
 
-Learn more about [Metamask Smart Accounts Kit](https://metamask.io/developer/smart-accounts-kit).
+Learn more about [MetaMask Smart Accounts Kit](https://metamask.io/developer/smart-accounts-kit).
 
 ## Prerequisites
 
-1. **Pimlico API Key**: In this template, we use Pimlico’s Bundler and Paymaster services to submit user operations and sponsor transactions, respectively. You can retrieve the required API key from [Pimlico’s Dashboard](https://dashboard.pimlico.io/apikeys).
+**Pimlico API Key**: In this template, we use Pimlico’s Bundler and Paymaster services to submit user operations and sponsor transactions, respectively. You can retrieve the required API key from the [Pimlico Dashboard](https://dashboard.pimlico.io/apikeys).
 
 ## Project Structure
 
@@ -26,7 +26,7 @@ nextjs-starter/
 └── tsconfig.json # TypeScript configuration
 ```
 
-## Setup Enviroment Variables
+## Setup Environment Variables
 
 Update the following environment variables in the `.env` file located in your project's root directory.
 
@@ -50,7 +50,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Learn More
 
-To learn more about the MetaMask Smart Accounts Kit, take a look at the following resources:
-
-- [Smart Accoutns Kit Documentation](https://docs.metamask.io/smart-accounts-kit/) - Lean more about Smart Accounts Kit features and API.
+See the [Smart Accounts Kit documentation](https://docs.metamask.io/smart-accounts-kit/) to learn more about its features and API.
 
