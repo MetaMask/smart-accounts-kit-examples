@@ -50,8 +50,6 @@ export default function RedeemDelegationButton() {
     });
 
     setTransactionHash(receipt.transactionHash);
-
-    console.log(receipt);
     setLoading(false);
   };
 
