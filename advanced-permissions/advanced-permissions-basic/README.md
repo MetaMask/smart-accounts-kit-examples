@@ -1,12 +1,12 @@
 # MetaMask Advanced Permissions (ERC-7715) Example
 
-This is a MetaMask Advanced Permissions (ERC-7715) basic example created with [@metamask/create-gator-app](https://www.npmjs.com/package/@metamask/create-gator-app).
+This is a MetaMask Advanced Permissions (ERC-7715) basic example created with [`@metamask/create-gator-app`](https://www.npmjs.com/package/@metamask/create-gator-app).
 
-Learn more about [Metamask Smart Accounts Kit](https://docs.metamask.io/smart-accounts-kit/).
+Learn more about [MetaMask Smart Accounts Kit](https://docs.metamask.io/smart-accounts-kit/).
 
 ## Prerequisites
 
-1. **Pimlico API Key**: In this template, we use Pimlico's Bundler and Paymaster services to submit user operations and sponsor transactions, respectively. You can retrieve the required API key from [Pimlico's Dashboard](https://dashboard.pimlico.io/apikeys).
+**Pimlico API Key**: In this template, we use Pimlico's Bundler and Paymaster services to submit user operations and sponsor transactions, respectively. You can retrieve the required API key from the [Pimlico Dashboard](https://dashboard.pimlico.io/apikeys).
 
 ## Project Structure
 
@@ -48,7 +48,7 @@ NEXT_PUBLIC_PIMLICO_API_KEY =
 
 ## Getting Started
 
-First, start the development server
+First, start the development server:
 
 ```bash
 yarn dev
@@ -68,5 +68,5 @@ This template demonstrates a complete MetaMask Advanced Permissions (ERC-7715) f
 
 To learn more about Smart Accounts Kit, take a look at the following resources:
 
-- [Advanced Permissions (ERC-7715) guide](https://docs.metamask.io/smart-accounts-kit/guides/advanced-permissions/execute-on-metamask-users-behalf/) - Learn how to use MetaMask Adanved Permissions.
+- [Advanced Permissions (ERC-7715) guide](https://docs.metamask.io/smart-accounts-kit/guides/advanced-permissions/execute-on-metamask-users-behalf/) - Learn how to use MetaMask Advanced Permissions.
 - [Smart Accounts Kit Documentation](https://docs.metamask.io/smart-accounts-kit/) - Learn more about Smart Accounts Kit features and API.

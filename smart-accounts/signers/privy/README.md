@@ -2,17 +2,17 @@
 
 This is a NextJS MetaMask Smart Accounts & Privy Quickstart created with [`@metamask/create-gator-app`](https://www.npmjs.com/package/@metamask/create-gator-app).
 
-This template is meant to help you bootstrap your own projects with Metamask Smart Acounts. It helps you build smart accounts with account abstraction, and powerful delegation features.
+This template is meant to help you bootstrap your own projects with Metamask Smart Accounts. It helps you build smart accounts with account abstraction, and powerful delegation features.
 
-Learn more about [Metamask Smart Accounts](https://docs.metamask.io/smart-accounts-kit/concepts/smart-accounts/).
+Learn more about [MetaMask Smart Accounts](https://docs.metamask.io/smart-accounts-kit/concepts/smart-accounts/).
 
 ## Prerequisites
 
 1. **Pimlico API Key**: In this template, you’ll use Pimlico’s 
 bundler and paymaster services to submit user operations and 
-sponsor transactions. You can get your API key from [Pimlico’s dashboard](https://dashboard.pimlico.io/apikeys).
+sponsor transactions. You can get your API key from the [Pimlico dashboard](https://dashboard.pimlico.io/apikeys).
 
-2. **Privy App ID**: Please create a new project on Privy Dashboard, and get your App ID. 
+2. **Privy App ID**: Create a new project on [Privy dashboard](https://dashboard.privy.io/), and get your App ID. 
 
 ## Project structure
 
