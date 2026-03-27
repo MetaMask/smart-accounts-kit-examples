@@ -1130,24 +1130,24 @@
     "@metamask/superstruct" "^3.1.0"
     "@metamask/utils" "^11.0.1"
 
-"@metamask/delegation-abis@^0.12.0-beta.0":
-  version "0.12.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-abis/-/delegation-abis-0.12.0-beta.0.tgz#0a242b8ae36647ad2d40258f7fd9b4f23e87e1d4"
-  integrity sha512-2I+nk15BSCWy2YTNE3bxMxqTDUqUJBque5A91wXqn0e3NYLzSg3DEdtc8VebUVbgP9IoFhRhHioPwzd/z+xPoQ==
+"@metamask/delegation-abis@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-abis/-/delegation-abis-1.0.0.tgz#09d163adcc5d476531941d15c8063890872c104c"
+  integrity sha512-AkrtrXD27yYCu0t0wHrY/Jburlc4HleMVGNlp4DPMljCJOoOg55TIDicAuxZp0QKVtffZ+49DZ8Ww6RBqM+gdQ==
 
-"@metamask/delegation-core@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-core/-/delegation-core-0.4.0.tgz#9f181b5e31c58d50c3d4bb25fc9b26891e2cd484"
-  integrity sha512-A8OPxwSiWhAWeiQOmn/hCVSu3wYouLKIfcSKqpW2TF/W4lkGlcr3bc0kgVRs9J6Aie1zhxvJ81fxV7E9SaVfIA==
+"@metamask/delegation-core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-core/-/delegation-core-1.0.0.tgz#5e1447e660c01428225f57bbbb116a4a2f124ee3"
+  integrity sha512-ULcSnAxUZC+HdnkteZ53IVDmbvBsjP0E8agF0iqFPbYirJLHvnnNWX/R1XmjqDgeA3G7kBfSP7IqvDRwD6jF4w==
   dependencies:
     "@metamask/abi-utils" "^3.0.0"
     "@metamask/utils" "^11.4.0"
     "@noble/hashes" "^1.8.0"
 
-"@metamask/delegation-deployments@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-deployments/-/delegation-deployments-0.17.0.tgz#2c5157962d6b1ca7cf5b27467d2ee830154c3e72"
-  integrity sha512-74H+zkLcnJHzF1GUrWJ2AkjVhXqPA2hKgDGolbqIV1x8ZFZyAYZdQ+QeQD03lV0XizSj5QxS/sWiUTGlyd5MtA==
+"@metamask/delegation-deployments@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-deployments/-/delegation-deployments-1.0.0.tgz#75442be56e19ffeefbd76e83ae11b6e2a3957467"
+  integrity sha512-V3QpZcVv608HyOcLCc5o5meqpAQZKun4vsY3goxRjAJqF2SzxxzEJeggxNNkT75aHHwz3EANqlGaRfoOmpEx+w==
 
 "@metamask/json-rpc-engine@^8.0.1", "@metamask/json-rpc-engine@^8.0.2":
   version "8.0.2"
@@ -1266,17 +1266,17 @@
     util "^0.12.4"
     uuid "^8.3.2"
 
-"@metamask/smart-accounts-kit@^0.4.0-beta.2":
-  version "0.4.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@metamask/smart-accounts-kit/-/smart-accounts-kit-0.4.0-beta.2.tgz#9eed1857075007b76a41ebf74a86ed421345cdbc"
-  integrity sha512-zts9fjBftMw7yq9ze4NVMM8j3dDDvApmzOQ2OOG2HzR8UkeA1l5ByP/ouz0ubbf00FYDpTcIauE1GJ+HnLcnAQ==
+"@metamask/smart-accounts-kit@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@metamask/smart-accounts-kit/-/smart-accounts-kit-1.0.0.tgz#d28c3a1d1308e711f9f51e6c6c4de5cdf91d327f"
+  integrity sha512-RL05BGlGWd0LzzYchyPU1wbPmNl76GEroWQ7Xwt+8vQ6qFtVnvBDPmxGCdVJeEvUbEBpIP6HGGQTmV97cUeyRg==
   dependencies:
     "@metamask/7715-permission-types" "^0.5.0"
-    "@metamask/delegation-abis" "^0.12.0-beta.0"
-    "@metamask/delegation-core" "^0.4.0"
-    "@metamask/delegation-deployments" "^0.17.0"
+    "@metamask/delegation-abis" "^1.0.0"
+    "@metamask/delegation-core" "^1.0.0"
+    "@metamask/delegation-deployments" "^1.0.0"
     buffer "^6.0.3"
-    webauthn-p256 "^0.0.10"
+    ox "0.8.1"
 
 "@metamask/superstruct@^3.0.0", "@metamask/superstruct@^3.1.0":
   version "3.2.1"
@@ -1513,7 +1513,7 @@
   dependencies:
     "@noble/hashes" "1.8.0"
 
-"@noble/curves@^1.3.0", "@noble/curves@^1.4.0", "@noble/curves@^1.4.2", "@noble/curves@^1.6.0", "@noble/curves@^1.9.7", "@noble/curves@~1.9.0":
+"@noble/curves@^1.3.0", "@noble/curves@^1.4.2", "@noble/curves@^1.6.0", "@noble/curves@^1.9.1", "@noble/curves@^1.9.7", "@noble/curves@~1.9.0":
   version "1.9.7"
   resolved "https://registry.yarnpkg.com/@noble/curves/-/curves-1.9.7.tgz#79d04b4758a43e4bca2cbdc62e7771352fa6b951"
   integrity sha512-gbKGcRUYIjA3/zCCNaWDciTMFI0dCkvou3TL8Zmy5Nc7sJ47a0jtOeZoTaMxkuqRo9cRhjOdZJXegxYE5FN/xw==
@@ -2954,7 +2954,7 @@ abitype@1.1.0:
   resolved "https://registry.yarnpkg.com/abitype/-/abitype-1.1.0.tgz#510c5b3f92901877977af5e864841f443bf55406"
   integrity sha512-6Vh4HcRxNMLA0puzPjM5GBgT4aAcFGKZzSgAXvuZ27shJP6NEpielTuqbBmZILR5/xd0PizkBGy5hReKz9jl5A==
 
-abitype@1.2.3, abitype@^1.0.6, abitype@^1.0.9, abitype@^1.2.3:
+abitype@1.2.3, abitype@^1.0.6, abitype@^1.0.8, abitype@^1.0.9, abitype@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/abitype/-/abitype-1.2.3.tgz#bec3e09dea97d99ef6c719140bee663a329ad1f4"
   integrity sha512-Ofer5QUnuUdTFsBRwARMoWKOH1ND5ehwYhJ3OJ/BQO+StkwQjHw0XyVh4vDttzHB7QOFhPHa/o413PJ82gU/Tg==
@@ -5441,6 +5441,20 @@ ox@0.7.1:
     abitype "^1.0.6"
     eventemitter3 "5.0.1"
 
+ox@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/ox/-/ox-0.8.1.tgz#c1328e4c890583b9c19d338126aef4b796d53543"
+  integrity sha512-e+z5epnzV+Zuz91YYujecW8cF01mzmrUtWotJ0oEPym/G82uccs7q0WDHTYL3eiONbTUEvcZrptAKLgTBD3u2A==
+  dependencies:
+    "@adraffy/ens-normalize" "^1.11.0"
+    "@noble/ciphers" "^1.3.0"
+    "@noble/curves" "^1.9.1"
+    "@noble/hashes" "^1.8.0"
+    "@scure/bip32" "^1.7.0"
+    "@scure/bip39" "^1.6.0"
+    abitype "^1.0.8"
+    eventemitter3 "5.0.1"
+
 ox@0.9.6:
   version "0.9.6"
   resolved "https://registry.yarnpkg.com/ox/-/ox-0.9.6.tgz#5cf02523b6db364c10ee7f293ff1e664e0e1eab7"
@@ -6754,14 +6768,6 @@ wagmi@^3.4.4:
     "@wagmi/connectors" "7.2.0"
     "@wagmi/core" "3.3.4"
     use-sync-external-store "1.4.0"
-
-webauthn-p256@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/webauthn-p256/-/webauthn-p256-0.0.10.tgz#877e75abe8348d3e14485932968edf3325fd2fdd"
-  integrity sha512-EeYD+gmIT80YkSIDb2iWq0lq2zbHo1CxHlQTeJ+KkCILWpVy3zASH3ByD4bopzfk0uCwXxLqKGLqp2W4O28VFA==
-  dependencies:
-    "@noble/curves" "^1.4.0"
-    "@noble/hashes" "^1.4.0"
 
 "webextension-polyfill@>=0.10.0 <1.0":
   version "0.12.0"
