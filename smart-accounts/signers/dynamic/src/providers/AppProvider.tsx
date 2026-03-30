@@ -16,8 +16,7 @@ const queryClient = new QueryClient();
 export const wagmiConfig = createConfig({
   chains: [sepolia],
   connectors,
-  multiInjectedProviderDiscovery: false,
-  ssr: true,
+  ssr: false,
   transports: {
     [sepolia.id]: http(),
   },

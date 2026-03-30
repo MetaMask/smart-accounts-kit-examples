@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@metamask/sdk": "~0.33.1",
-    "@metamask/smart-accounts-kit": "^0.3.0",
+    "@metamask/smart-accounts-kit": "^1.0.0",
     "@tailwindcss/postcss": "^4.1.1",
     "@tanstack/react-query": "^5.90.16",
     "lucide-react": "^0.562.0",
