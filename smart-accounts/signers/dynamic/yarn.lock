@@ -1144,10 +1144,10 @@
     "@metamask/utils" "^11.4.0"
     "@noble/hashes" "^1.8.0"
 
-"@metamask/delegation-deployments@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-deployments/-/delegation-deployments-1.0.0.tgz#75442be56e19ffeefbd76e83ae11b6e2a3957467"
-  integrity sha512-V3QpZcVv608HyOcLCc5o5meqpAQZKun4vsY3goxRjAJqF2SzxxzEJeggxNNkT75aHHwz3EANqlGaRfoOmpEx+w==
+"@metamask/delegation-deployments@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-deployments/-/delegation-deployments-1.1.0.tgz#23a7c99649774230ffdd3819c06d18680d7da29f"
+  integrity sha512-HARqnS/8qjNhMqmsjP45GUpUSwE7PrVsKrYB5iHxcAfe/U//qbxa5T3KT3ALStB6A463BxMPdR99yTNJx7wbfg==
 
 "@metamask/json-rpc-engine@^8.0.1", "@metamask/json-rpc-engine@^8.0.2":
   version "8.0.2"
@@ -1266,15 +1266,15 @@
     util "^0.12.4"
     uuid "^8.3.2"
 
-"@metamask/smart-accounts-kit@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@metamask/smart-accounts-kit/-/smart-accounts-kit-1.0.0.tgz#d28c3a1d1308e711f9f51e6c6c4de5cdf91d327f"
-  integrity sha512-RL05BGlGWd0LzzYchyPU1wbPmNl76GEroWQ7Xwt+8vQ6qFtVnvBDPmxGCdVJeEvUbEBpIP6HGGQTmV97cUeyRg==
+"@metamask/smart-accounts-kit@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@metamask/smart-accounts-kit/-/smart-accounts-kit-1.1.0.tgz#7c36da2bc17ece4dcf0b34ea41aac92d3472df21"
+  integrity sha512-4rFM9Ym5nPOsZzt0Y0lnRgDYAeD6iYSCRHkVW19SqF0Xj2OPnCIP29G6XwPNh1pdciflJ5T//avNdS5rc3Er8Q==
   dependencies:
     "@metamask/7715-permission-types" "^0.5.0"
     "@metamask/delegation-abis" "^1.0.0"
     "@metamask/delegation-core" "^1.0.0"
-    "@metamask/delegation-deployments" "^1.0.0"
+    "@metamask/delegation-deployments" "^1.1.0"
     buffer "^6.0.3"
     ox "0.8.1"
 
