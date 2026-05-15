@@ -1117,10 +1117,10 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.4.0"
 
-"@metamask/7715-permission-types@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@metamask/7715-permission-types/-/7715-permission-types-0.5.0.tgz#4eac0b65cdd96707c8e9f594fcda2d7bbccf596d"
-  integrity sha512-UTlAXhfVM83/dCtghIqZiPqJmeGa4KI2HhkKYjmeP0oFtwzsgDwFfNakdICC4VX82338AiyVVtbEFyx6t7SE1w==
+"@metamask/7715-permission-types@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@metamask/7715-permission-types/-/7715-permission-types-0.6.0.tgz#7ad245c7472ac9b3c5467fabc546e6ba6b13d5af"
+  integrity sha512-FLhT+O5sm27HQwKVWVe6sW3SzLuj6odaP1QqVeKW1PpwueBPprJLH89bRRU/hcb67webDoBaPrxL6tJsRKCkIw==
 
 "@metamask/abi-utils@^3.0.0":
   version "3.0.0"
@@ -1135,19 +1135,19 @@
   resolved "https://registry.yarnpkg.com/@metamask/delegation-abis/-/delegation-abis-1.0.0.tgz#09d163adcc5d476531941d15c8063890872c104c"
   integrity sha512-AkrtrXD27yYCu0t0wHrY/Jburlc4HleMVGNlp4DPMljCJOoOg55TIDicAuxZp0QKVtffZ+49DZ8Ww6RBqM+gdQ==
 
-"@metamask/delegation-core@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-core/-/delegation-core-1.1.0.tgz#2a68638ea42a6cc4684f1b00ca6c1f03398fc8ee"
-  integrity sha512-pcSbn4IjCCRigwNvL3JNjNmdUJHpBGS35lT5nK/g3Nj7DMFNcvf3l/lvqJldFJklsEAb7KNFChOvmhPtFCJUmg==
+"@metamask/delegation-core@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-core/-/delegation-core-2.1.0.tgz#9589fe0974146f16e0099341667ccefce880a00d"
+  integrity sha512-VcctjzlJOFTM9LsR8s/M1sM/GNvzKCNK0up6R337IDrV3mX60jNgxin+VGvTFtwyFEGaXnu4caR0ZTeTorzBog==
   dependencies:
     "@metamask/abi-utils" "^3.0.0"
     "@metamask/utils" "^11.4.0"
     "@noble/hashes" "^1.8.0"
 
-"@metamask/delegation-deployments@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@metamask/delegation-deployments/-/delegation-deployments-1.2.0.tgz#3d6ad0bf6a37011a0a32b601e9a94aa19fb09085"
-  integrity sha512-g5ODlgcn+zfEp6dV0GOdW85AZ/TujMOKuGQEAC5m9BtFor8Vj6WeMd9hVQcV7/oGZ5ki+MjO47NMOh+BIcIgRg==
+"@metamask/delegation-deployments@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@metamask/delegation-deployments/-/delegation-deployments-1.3.0.tgz#31490454646e9a1e1c57c7ed110cf2d7665ae5df"
+  integrity sha512-3KX7w8r2NISqLaF5y0pE0seb+BB7c8NC1d9DJjQQby3S2RbrjOK1S/GcUnbm42sO+r3ztfCJ7TvsN7oajaJfWg==
 
 "@metamask/json-rpc-engine@^8.0.1", "@metamask/json-rpc-engine@^8.0.2":
   version "8.0.2"
@@ -1266,15 +1266,15 @@
     util "^0.12.4"
     uuid "^8.3.2"
 
-"@metamask/smart-accounts-kit@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@metamask/smart-accounts-kit/-/smart-accounts-kit-1.2.0.tgz#32836bfade4b8585af52bdebdfe48b6472f6b281"
-  integrity sha512-2LeOBOhDqxHUKhUySnzE/ELnKRE7Zd1lgPRBZVsQCoel4w+RG35kYK0rM8+S9aKI6TtBi9lC2hvECj7yG5X7xA==
+"@metamask/smart-accounts-kit@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@metamask/smart-accounts-kit/-/smart-accounts-kit-1.5.0.tgz#fad5e06e96377817c1543b9f7e2373d2fc326e75"
+  integrity sha512-APqs4lojGuFIA2tPZyPcVIGk9fQn5jBW4rI5578fzan3WvD1SzjOkUCN4PjbwuygpU53ZKpR2Y7vGh+oKGSPyQ==
   dependencies:
-    "@metamask/7715-permission-types" "^0.5.0"
+    "@metamask/7715-permission-types" "^0.6.0"
     "@metamask/delegation-abis" "^1.0.0"
-    "@metamask/delegation-core" "^1.1.0"
-    "@metamask/delegation-deployments" "^1.2.0"
+    "@metamask/delegation-core" "^2.1.0"
+    "@metamask/delegation-deployments" "^1.3.0"
     openapi-fetch "^0.13.5"
     ox "0.8.1"
 
