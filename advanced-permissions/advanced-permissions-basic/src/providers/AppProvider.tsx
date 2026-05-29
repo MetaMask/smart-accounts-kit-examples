@@ -8,7 +8,14 @@ import { metaMask } from "wagmi/connectors";
 import { PermissionProvider } from "@/providers/PermissionProvider";
 import { SessionAccountProvider } from "./SessionAccountProvider";
 
-export const connectors = [metaMask()];
+export const connectors = [
+    metaMask({
+        dapp: {
+            name: "Advanced Permissions",
+            url: "https://localhost:3000",
+        },
+    }),
+];
 
 const queryClient = new QueryClient();
 

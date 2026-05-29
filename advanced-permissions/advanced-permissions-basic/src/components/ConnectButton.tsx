@@ -1,8 +1,8 @@
 "use client";
 
 import { useChainId, useConnect, useConnection, useSwitchChain } from "wagmi";
-import Button from "@/components/Button";
 import { metaMask } from "wagmi/connectors";
+import Button from "@/components/Button";
 
 export default function ConnectButton() {
     const connect = useConnect();
